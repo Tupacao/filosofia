@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Pangolin;
+}
+
+
+
+/*  Section  */
+
+.descricao{
+    background-color: lightblue;
+    margin-top: 200px;
+}
+
+.titulo{
+    font-size: 30px;
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.texto{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 60px;
+}
+
+/*  Footer  */
+
+.baixo_site{
+    margin-top: 100px;
+}
+
+.setas{
+    display: flex;
+    justify-content: center;
+}
+
+.setas a{
+    text-decoration: none;
+    color: black;
+}
+
+.proxima{
+    justify-content: center;
+    margin: 10px 50px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.figurinhas{
+    justify-content: center;
+    margin: 10px 50px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.voltar{
+    justify-content: center;
+    margin: 10px 50px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
