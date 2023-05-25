@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Pangolin;
+}
+
+
+/*  Section  */
+
+.agrupamento_figuras{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.caixa1{
+    background-color: lightcoral;
+    margin: 20px auto;
+    max-width: 30%;
+    border-radius: 10px;
+}
+
+.box{
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagem img{
+    border-radius: 10px;
+}
+
+.texto{
+    margin: 15px 0px;
+}
+
+.dica{
+    padding: 5px;
+    background-color: lightblue;
+    margin: 30px auto;
+    max-width: 60%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*  Footer  */
+
+.baixo_site{
+    margin-top: 100px;
+    background-color: lightgreen;
+}
+
+.setas{
+    display: flex;
+    justify-content: center;
+}
+
+.setas a{
+    text-decoration: none;
+    color: black;
+}
+
+.proxima{
+    justify-content: center;
+    margin: 10px 50px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.figurinhas{
+    justify-content: center;
+    margin: 10px 50px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.voltar{
+    justify-content: center;
+    margin: 10px 50px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .caixa1{
+        background-color: lightcoral;
+        margin: 20px auto;
+        max-width: 100%;
+    }
+}
