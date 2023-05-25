@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Pangolin;
+}
+
+/*  Cabecalho  */
+
+.caixa_em_cima_fora{
+    margin: 30px;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.caixa_em_cima_dentro{
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.caixa_em_cima_meio{
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+}
+
+.caixa_em_cima_meio h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/*  Abelinha-Balao  */
+
+.abelha_fala{
+    margin: 50px 20px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.balao_fala{ 
+    background: #4b01ca;
+    font-family: 'open sans';
+    font-size: 20px;
+    line-height: 30px;  
+    border-radius: 20px;
+    width: 600px;
+    height: auto;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.balao_fala:after{ /*Triangulo*/
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 90px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 30px solid transparent;
+    /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+    /*Aqui entra a cor da "aba" do balão */
+    border-bottom: 80px solid #4b01ca;
+    left: -80px; /*localização. Experimente alterar para 'bottom'*/
+    top: 20%;
+}
+
+/*  Section  */
+
+.texto_meio_site{
+    margin: 10px 40px; 
+    font-size: 20px;
+    text-align: justify;
+    line-height: 50px;
+}
+
+/*  Footer  */
+
+.baixo_site{
+    margin-top: 100px;
+    background-color: lightgreen;
+}
+
+.setas{
+    display: flex;
+    justify-content: center;
+}
+
+.setas a{
+    text-decoration: none;
+    color: black;
+}
+
+.proxima{
+    justify-content: center;
+    margin: 10px 50px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.figurinhas{
+    justify-content: center;
+    margin: 10px 50px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.voltar{
+    justify-content: center;
+    margin: 10px 50px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 800px) {
+
+    .abelha_fala{
+        margin: 50px 20px;
+        background-color: antiquewhite;
+        display: block;
+        text-align: justify;
+    }
+    
+    .abelha_fala .imagem{
+        display: flex;
+        justify-content: center;
+    }
+
+    .balao_fala{
+        display: flex;
+        flex-wrap: wrap;
+        background: #4b01ca;
+        font-family: 'open sans';
+        font-size: 20px;
+        line-height: 30px;  
+        border-radius: 20px;
+        width: 50%;
+        height: auto;
+        color: #fff;
+        padding: 20px;
+        position: relative;
+        margin: 50px auto;
+    }
+    
+    .balao_fala:after{ /*Triangulo*/
+        display: flex;
+        flex-wrap: wrap;
+        content: "";
+        width: 0;
+        height: 0px;
+        position: absolute;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        
+        /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+        /*Aqui entra a cor da "aba" do balão */
+        border-bottom: 20px solid #4b01ca;
+        left: 40%; /*localização. Experimente alterar para 'bottom'*/
+        top: -20%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .abelha_fala{
+        margin: 50px 20px;
+        background-color: antiquewhite;
+        display: block;
+        text-align: justify;
+    }
+    
+    .abelha_fala .imagem{
+        display: flex;
+        justify-content: center;
+    }
+
+    .balao_fala{
+        display: flex;
+        flex-wrap: wrap;
+        background: #4b01ca;
+        font-family: 'open sans';
+        font-size: 20px;
+        line-height: 30px;  
+        border-radius: 20px;
+        width: 50%;
+        height: auto;
+        color: #fff;
+        padding: 20px;
+        position: relative;
+        margin: 50px auto;
+    }
+    
+    .balao_fala:after{ /*Triangulo*/
+        display: flex;
+        flex-wrap: wrap;
+        content: "";
+        width: 0;
+        height: 0px;
+        position: absolute;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        
+        /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+        /*Aqui entra a cor da "aba" do balão */
+        border-bottom: 20px solid #4b01ca;
+        left: 30%; /*localização. Experimente alterar para 'bottom'*/
+        top: -12%;
+    }
+}
