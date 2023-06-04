@@ -84,6 +84,30 @@
     border-radius: 10px;
 }
 
+.drag{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images h1{
+    margin: auto 10px;
+}
+
+.figurinhas i{
+    cursor: pointer;
+}
+
+.close{
+    margin: 10px;
+    cursor: pointer;
+}
+
 
 
 @media (max-width: 1000px) {

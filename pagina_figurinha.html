@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <link rel="icon" href="imagens/abelinha.jpg">
+    <script src="java1.js"></script>
     <title>Turma do Barreirinho</title>
 </head>
 <body>
@@ -182,8 +183,26 @@
 
         <div class="baixo_site">
 
-            <div class="setas">
+            <div class="drag" id="drag">
+
+                <div class="images">
+                    <h1>Quem sabe</h1>
+                    <h1>Quem sabe</h1>
+                    <h1>Quem sabe</h1>
+                    <h1>Quem sabe</h1>
+                    <h1>Quem sabe</h1>
+                </div>  
                 
+                <div class="close" id="close">
+
+                    <i class="fa-sharp fa-solid fa-xmark fa-2xl" id="fechar"></i>
+
+                </div>
+
+            </div>
+
+            <div class="setas">
+
                 <div class="voltar">
 
                     <a href="pagina_texto.html"> <i class="fa-solid fa-arrow-left fa-2xl"></i> </a>
@@ -192,7 +211,7 @@
 
                 <div class="figurinhas">
 
-                    <a href="#"> <i class="fa-solid fa-bars fa-2xl"></i> </a>
+                    <i class="fa-solid fa-bars fa-2xl" id="figurinhas"></i>
 
                 </div>
 
